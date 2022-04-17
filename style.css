@@ -1,0 +1,415 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.headline{
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    height: 26px;
+    /* position: fixed;
+    width: 100%;
+    z-index: 20; */
+}
+
+.header{
+    display: flex;
+    position: relative;
+    top: 28px;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+
+.header img{
+    height: 60px;
+}
+
+.header a{
+    background-color: dodgerblue;
+    padding: 8px 17px;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+
+.home{
+    position: relative;
+    top: 220px;
+    padding-left: 150px;
+    display: flex;
+}
+
+.home h2{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.home .span1{
+    color: dodgerblue;
+}
+
+.home p{
+    font-size: 20px;
+}
+
+.btns{
+    position: relative;
+    top: 15px;
+}
+
+.btns .ApplyNow{
+    background-color: dodgerblue;
+    padding: 8px 17px;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.btns .Curriculum{
+    border: 1px solid dodgerblue;
+    padding: 8px 17px;
+    color: black;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-left: 7px;
+}
+
+.img img{
+    height: 480px;
+    position: relative;
+    top: -115px;
+    padding-left: 20px;
+}
+
+.Fikrcamp{
+    position: relative;
+    top: 140px;
+    padding-left: 150px;
+}
+
+.Fikrcamp h1{
+    font-size: 34px;
+    font-weight: 400;   
+}
+
+.Fikrcamp .fkr{
+    color: dodgerblue;
+    background-color: #E7F2FF;
+}
+
+.Fikrcamp p{
+    padding-top: 10px;
+}
+
+.experience{
+    height: 600px;
+    width: 100%;
+    background-color: #E7F2FF;
+    position: relative;
+    top: 160px;
+}
+
+.experience h2{
+    position: relative;
+    top: 40px;
+    padding-left: 150px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.experience .p{
+    position: relative;
+    top: 47px;
+    padding-left: 150px;
+}
+
+.four1{
+    position: relative;
+    top: 90px;
+    display: flex;
+    row-gap: 20px;
+}
+
+.four1 .Instructors{
+    padding-left: 150px;
+}
+
+.four1 .i1-1{
+    padding-left: 25px;
+}
+
+.i1-1 h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: dodgerblue;
+    padding-top: 20px;
+}
+
+.Instructors h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: dodgerblue;
+}
+
+.four1 .Mentors{
+    padding-left: 150px;
+}
+
+.four1 .Curriculum{
+    padding-left: 25px;
+}
+
+.Curriculum h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: dodgerblue;
+}
+
+.Mentors h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: dodgerblue;
+    padding-top: 20px;
+}
+
+
+.bootcamps{
+    position: relative;
+    top: 235px;
+    text-align: center;
+    height: 500px;
+    color: black;
+}
+
+.bootcamps h4{
+    color: black;
+    font-size: 25px;
+    font-weight: 900;
+    color: dodgerblue;
+}
+
+.boot{
+    background-color: #E7F2FF;
+    padding: 7px;
+}
+
+.bootcamps p{
+    padding-top: 25px;
+}
+
+.category{
+    display: flex;
+    padding: 60px 160px;
+    gap: 38px;
+}
+
+.webdevlopment{
+    width: 500px;
+    border-radius: 10px;
+}
+
+.webdevlopment h2{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.webdevlopment p{
+    margin-top: -16px;
+    padding: 10px;
+}
+
+.webdevlopment img{
+    height: 280px;
+    padding-left: 40px;
+}
+
+.subtitle{
+    text-align: left;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.classroom{
+    font-weight: 300;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+    background-color: dodgerblue;
+    width: 100%;
+    border-radius: 0px 0px 6px 6px;
+    color: white;
+    font-weight: 300;
+}
+.end1{
+    justify-content: space-between;
+    background-color: dodgerblue;
+    width: 100%;
+    border-radius: 0px 0px 6px 6px;
+    color: white;
+    font-weight: 300;
+}
+
+.webdevlopment .image-kiisa{
+    height: 328px;
+    padding-left: 40px;
+}
+
+.space{
+    position: relative;
+    top: -240px;
+    padding-left: 660px;
+}
+
+.space img{
+    height: 320px;
+    width: 510px;
+    border-radius: 4px;
+}
+
+.launch{
+    position: relative;
+    top: 420px;
+    text-align: center;
+    background-color: #007AFF;
+    height: 330px;
+    color: white;
+    padding: 30px;
+    padding-top: 40px;
+}
+
+.launch h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.launch p{
+    padding-top: 20px;
+}
+
+.types{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 110px;
+    position: relative;
+    top: 22px;
+}
+
+.types h2{
+    font-size: 27px;
+    font-weight: 500;
+    color: #F8B335;
+}
+
+.types p{
+    margin-top: -20px;
+}
+
+.levelup{
+    position: relative;
+    top: 480px;
+    height: 300px;
+    text-align: center;
+}
+
+.levelup h2{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.levelup p{
+    padding-top: 10px;
+}
+
+.parts{
+    border: 1px solid rgb(169, 169, 169);
+    width: 330px;
+    position: relative;
+    top: 38px;
+    /* margin-left: 20px; */
+    text-align: center;
+    /* padding: 20px; */
+}
+
+.parts img{
+    height: 200px;
+    padding-left: 40px;
+}
+
+.parts h1{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.hamse{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+}
+
+.commun{
+    position: relative;
+    top: 70px;
+}
+
+
+.contact{
+    position: relative;
+    top: 728px;
+    width: 100%;
+    height: 290px;
+    background-color: #F8B335;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.contact h2{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.contact p{
+    color: white;
+    padding-top: 10px;
+}
+
+.contatc-list{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 40px;
+}
+
+.list{
+    padding: 0px 40px;
+    margin-top: 40px;
+}
+
+.list img{
+    height: 30px;
+    padding-left: 53px;
+}
+
+footer{
+    position: relative;
+    top: 726px;
+    padding: 10px 140px;
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.icons img{
+    height: 20px;
+}
